@@ -1,0 +1,27 @@
+body {
+    background-color:  #834e4e;
+}
+*{
+	padding: 10;
+	margin: 0;
+	box-sizing: border-box;
+	}
+h2{
+	font-size: 60px;
+}
+table{
+	letter-spacing: 1.2px;
+}
+td{
+	text-align: center;
+}
+button{
+	border:none;
+	background: #c8b5b5;
+    transition: 1s;
+}
+@media only screen and (orientation: portrait){
+	*{
+		letter-spacing: 1px;
+	}
+}
